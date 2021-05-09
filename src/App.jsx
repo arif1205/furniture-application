@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
+import CommonHeader from "./Components/Common/CommonHeader";
 
 function App() {
 	return (
 		<div>
-			<h1>App is running...</h1>
-			<i class='fas fa-address-book'></i>
+			<CommonHeader />
 		</div>
 	);
 }
